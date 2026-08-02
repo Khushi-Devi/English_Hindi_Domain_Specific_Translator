@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.bin
+
+*.pt
+# Large datasets
+data/raw/
+*.csv
+
+# SentencePiece temporary files
+english_train.txt
+hindi_train.txt
+
+# Tokenizer generated files
+*.model
+*.vocab
+
+# OS files
+.DS_Store
+Thumbs.db
