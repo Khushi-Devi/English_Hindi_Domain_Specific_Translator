@@ -85,6 +85,8 @@ class TransformerTranslator(nn.Module):
             src,
             tgt
         )
+        output = self.fc(output)
+        return output
    
 @st.cache_resource
 def load_model():
