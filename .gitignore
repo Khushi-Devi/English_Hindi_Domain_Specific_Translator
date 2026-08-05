@@ -12,11 +12,12 @@ __pycache__/
 models/*.pt
 models/*.pth
 models/*.bin
-
+models/
 *.pt
 # Large datasets
 data/raw/
 *.csv
+data/tokenizer
 
 # SentencePiece temporary files
 english_train.txt
@@ -29,3 +30,5 @@ hindi_train.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+app.py
